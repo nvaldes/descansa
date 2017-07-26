@@ -1,4 +1,4 @@
-# [Descansa](https://descansa.io)
+# [Descansa.io](https://descansa.io)
 
 ###### Des'kansa: <small>(imperative)</small> to rest &mdash; Spanish
 
