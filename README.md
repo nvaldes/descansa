@@ -1,4 +1,6 @@
-# [Descansa](https://deadlink.io): <small>(imperative) to rest &mdash; Spanish</small>
+# [Descansa](https://descansa.io)
+
+###### Des'kansa: <small>(imperative)</small> to rest &mdash; Spanish
 
 A more personally useful take on the traditional [TodoMVC](http://todomvc.com/) project used to test out Javascript frameworks.
 
