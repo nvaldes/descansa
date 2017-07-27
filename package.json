@@ -1,0 +1,25 @@
+{
+  "name": "descansa",
+  "version": "0.0.0",
+  "description": "an http client written in multiple front-end frameworks.",
+  "main": "index.html",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.15.3"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nvaldes@github.com/nvaldes/descansa.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nvaldes/descansa/issues"
+  },
+  "homepage": "https://github.com/nvaldes/descansa#readme"
+}

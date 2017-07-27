@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html  lang="en">
 <head>
-  <title>deadlink.io</title>
+  <title>Descansa REST Client</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
   <link rel="stylesheet" type="text/css" href="../assets/fonts/fantasque-sans-mono/stylesheet.css">
@@ -11,35 +11,37 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <style type="text/css">
     body {
+      background: #10194E;
       color: #fff;
-      background: #333;
-      font-family: "Fantasque Sans Mono", "Lucida Console", Monaco, monospace;
     }
-    .github-fork-ribbon:after {
-      padding: 0;
-      margin: 0
+    .navbar {
+      box-shadow: 0 1px 6px 0 #181818;
+    }
+    .navbar-brand {
+      font-family: "Fantasque Sans Mono";
     }
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-inverse">
+  <header class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <h1 class="navbar-brand mb-0">deadlink.io</h1>
-    <div class="collapse navbar-collapse" id="navigation">
+    <a class="navbar-brand" href="/">descansa.io</a>
+    <nav class="collapse navbar-collapse" id="navigation">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="angularjs">AngularJS (1.x)</a></li>
-        <li class="nav-item"><a class="nav-link" href="elm">Elm</a></li>
-        <li class="nav-item"><a class="nav-link" href="react">React</a></li>
-        <li class="nav-item"><a class="nav-link" href="vue">Vue.js</a></li>
-        <li class="nav-item"><a class="nav-link" href="ember">Ember.js</a></li>
+        <li class="nav-item"><a class="nav-link" href="/angularjs">AngularJS (1.x)</a></li>
+        <li class="nav-item"><a class="nav-link" href="/elm">Elm</a></li>
+        <li class="nav-item"><a class="nav-link" href="/react">React</a></li>
+        <li class="nav-item"><a class="nav-link" href="/vue">Vue.js</a></li>
+        <li class="nav-item"><a class="nav-link" href="/ember">Ember.js</a></li>
         <li class="nav-item"><a class="nav-link active">Angular (2/4)</a></li>
       </ul>
-    </div>
-  </nav>
-  <div class="container">
+    </nav>
+  </header>
+  <div class="container mt-3">
+    <p class="text-center small">descansa.io is an HTTP client written in multiple front-end frameworks.</p>
+    <p class="text-center lead">Descansa has not yet been implemented in Angular (2/4).</p>
   </div>
-  <a class="github-fork-ribbon left-bottom fixed" href="https://github.com/nvaldes/deadlink-angular" title="Fork me on GitHub">Fork me on GitHub</a>
 </body>
 </html>
