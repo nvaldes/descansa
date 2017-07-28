@@ -4,7 +4,7 @@ module.exports.hello = (event, context, callback) => {
   var request = require('request');
   var headerNames = Object.keys(event.headers).filter(e => { return ['Host', 'X-DESCANSA-DEST'].indexOf(e) === -1 });
   var options = {
-    url: event.headers['X-DESCANSA-DEST'],
+    url: `${event.headers['X-DESCANSA-PROTOCOL']}://${event.headers['X-DESCANSA-DEST']}`,
     method: event.httpMethod,
     headers: {},
     gzip: true,

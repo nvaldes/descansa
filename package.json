@@ -4,6 +4,7 @@
   "description": "an http client written in multiple front-end frameworks.",
   "main": "index.html",
   "dependencies": {
+    "mime-db": "^1.29.0",
     "request": "^2.81.0"
   },
   "devDependencies": {
